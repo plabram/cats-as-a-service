@@ -16,7 +16,7 @@
 
 #cat-container {
   display: flex;
-  width:100%
+  width: 100%;
 }
 
 .cat {
@@ -26,10 +26,11 @@
 }
 
 .cat > img {
-  width:100%;
+  width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   font-size: 2.5rem;
 }
@@ -39,11 +40,11 @@ form {
 }
 
 .form-items {
-  padding: 10px
+  padding: 10px;
 }
 
 .form-submit {
-  padding:10px
+  padding: 10px;
 }
 
 button {
@@ -51,4 +52,5 @@ button {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
